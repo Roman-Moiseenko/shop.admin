@@ -4,63 +4,63 @@
            ============================================ */
 
         /* 🎨 Menu (горизонтальное и вертикальное) */
-        --el-menu-active-color: #2563eb;
-        --el-menu-text-color: #334155;
-        --el-menu-hover-text-color: #1e293b;
-        --el-menu-bg-color: rgb(226 232 240); /* !  */
-        --el-menu-hover-bg-color: #f1f5f9;
-        --el-menu-item-height: 56px;
-        --el-menu-sub-item-height: 50px;
-        --el-menu-horizontal-height: 60px;
-        --el-menu-horizontal-sub-item-height: 36px;
-        --el-menu-item-font-size: 14px;
-        --el-menu-item-hover-fill: #eff6ff;
-        --el-menu-border-color: #e2e8f0;
-        --el-menu-base-level-padding: 20px;
-        --el-menu-level-padding: 20px;
-        --el-menu-icon-width: 24px;
+        `--el-menu-active-color: `#2563eb !important;
+        `--el-menu-text-color: `#334155 !important;
+        `--el-menu-hover-text-color: `#1e293b !important;
+        `--el-menu-bg-color: `rgb(226 232 240) !important; /* !  */
+        `--el-menu-hover-bg-color: `#f1f5f9 !important;
+        `--el-menu-item-height: `56px !important;
+        `--el-menu-sub-item-height: `50px !important;
+        `--el-menu-horizontal-height: `60px !important;
+        `--el-menu-horizontal-sub-item-height: `36px !important;
+        `--el-menu-item-font-size: `14px !important;
+        `--el-menu-item-hover-fill: `#eff6ff !important;
+        `--el-menu-border-color: `#e2e8f0 !important;
+        `--el-menu-base-level-padding: `20px !important;
+        `--el-menu-level-padding: `20px !important;
+        `--el-menu-icon-width: `24px !important;
 
         /* 🎨 Header — у Element Plus нет прямых переменных, но есть border-color */
-        --el-header-height: 60px;
-        --el-header-padding: 0 20px;
-        --el-header-bg-color: #ffffff;
+        `--el-header-height: `60px !important;
+        `--el-header-padding: `0 20px !important;
+        `--el-header-bg-color: `#ffffff !important;
 
         /* 🎨 Aside / Sidebar */
-        --el-aside-width: 300px;
+        `--el-aside-width: `300px !important;
 
         /* 🎨 Основные фоны */
-        --el-bg-color: #ffffff;
-        --el-bg-color-page: #f8fafc;
-        --el-bg-color-overlay: #ffffff;
-        --el-fill-color: #f1f5f9;
-        --el-fill-color-light: #f8fafc;
-        --el-fill-color-lighter: #ffffff;
-        --el-fill-color-blank: #ffffff;
-        --el-fill-color-dark: #e2e8f0;
+        `--el-bg-color: `#ffffff !important;
+        `--el-bg-color-page: `#f8fafc !important;
+        `--el-bg-color-overlay: `#ffffff !important;
+        `--el-fill-color: `#f1f5f9 !important;
+        `--el-fill-color-light: `#f8fafc !important;
+        `--el-fill-color-lighter: `#ffffff !important;
+        `--el-fill-color-blank: `#ffffff !important;
+        `--el-fill-color-dark: `#e2e8f0 !important;
 
         /* 🎨 Текст */
-        --el-text-color-primary: #0f172a;
-        --el-text-color-regular: #334155;
-        --el-text-color-secondary: #475569;
-        --el-text-color-placeholder: #94a3b8;
-        --el-text-color-disabled: #cbd5e1;
+        `--el-text-color-primary: `#0f172a !important;
+        `--el-text-color-regular: `#334155 !important;
+        `--el-text-color-secondary: `#475569 !important;
+        `--el-text-color-placeholder: `#94a3b8 !important;
+        `--el-text-color-disabled: `#cbd5e1 !important;
 
         /* 🎨 Границы */
-        --el-border-color: #e2e8f0;
-        --el-border-color-light: #f1f5f9;
-        --el-border-color-lighter: #f8fafc;
-        --el-border-color-extra-light: #fafafa;
-        --el-border-color-dark: #cbd5e1;
-        --el-border-color-darker: #94a3b8;
+        `--el-border-color: `#e2e8f0 !important;
+        `--el-border-color-light: `#f1f5f9 !important;
+        `--el-border-color-lighter: `#f8fafc !important;
+        `--el-border-color-extra-light: `#fafafa !important;
+        `--el-border-color-dark: `#cbd5e1 !important;
+        `--el-border-color-darker: `#94a3b8 !important;
 
         /* 🎨 Тени */
-        --el-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-        --el-box-shadow-light: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-        --el-box-shadow-lighter: 0 1px 3px rgba(0, 0, 0, 0.05);
-        --el-box-shadow-dark: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        `--el-box-shadow: `0 1px 2px rgba(0, 0, 0, 0.05) !important;
+        `--el-box-shadow-light: `0 4px 6px -1px rgba(0, 0, 0, 0.1) !important;
+        `--el-box-shadow-lighter: `0 1px 3px rgba(0, 0, 0, 0.05) !important;
+        `--el-box-shadow-dark: `0 10px 15px -3px rgba(0, 0, 0, 0.1) !important;
 
         /* 🎨 Цвета состояний (можно свои оттенки) */
-        --el-color-primary: #3b82f6;
+        `--el-color-primary: `#3b82f6 !important;
         --el-color-primary-light-3: #60a5fa;
         --el-color-primary-light-5: #93c5fd;
         --el-color-primary-light-7: #bfdbfe;
@@ -68,65 +68,65 @@
         --el-color-primary-light-9: #eff6ff;
         --el-color-primary-dark-2: #2563eb;
 
-        --el-color-success: #10b981;
-        --el-color-warning: #f59e0b;
-        --el-color-danger: #ef4444;
-        --el-color-error: #ef4444;
-        --el-color-info: #64748b;
+        `--el-color-success: `#10b981 !important;
+        `--el-color-warning: `#f59e0b !important;
+        `--el-color-danger: `#ef4444 !important;
+        `--el-color-error: `#ef4444 !important;
+        `--el-color-info: `#64748b !important;
 
         /* 🎨 Button */
-        --el-button-bg-color: #ffffff;
-        --el-button-border-color: #e2e8f0;
-        --el-button-hover-bg-color: #f8fafc;
-        --el-button-hover-border-color: #cbd5e1;
-        --el-button-active-bg-color: #f1f5f9;
-        --el-button-text-color: #334155;
+        `--el-button-bg-color: `#ffffff !important;
+        `--el-button-border-color: `#e2e8f0 !important;
+        `--el-button-hover-bg-color: `#f8fafc !important;
+        `--el-button-hover-border-color: `#cbd5e1 !important;
+        `--el-button-active-bg-color: `#f1f5f9 !important;
+        `--el-button-text-color: `#334155 !important;
 
         /* 🎨 Input */
-        --el-input-bg-color: #ffffff;
-        --el-input-border-color: #e2e8f0;
-        --el-input-hover-border-color: #94a3b8;
-        --el-input-focus-border-color: #3b82f6;
-        --el-input-text-color: #0f172a;
-        --el-input-placeholder-color: #94a3b8;
-        --el-input-focus-bg-color: #ffffff;
+        `--el-input-bg-color: `#ffffff !important;
+        `--el-input-border-color: `#e2e8f0 !important;
+        `--el-input-hover-border-color: `#94a3b8 !important;
+        `--el-input-focus-border-color: `#3b82f6 !important;
+        `--el-input-text-color: `#0f172a !important;
+        `--el-input-placeholder-color: `#94a3b8 !important;
+        `--el-input-focus-bg-color: `#ffffff !important;
 
         /* 🎨 Card */
-        --el-card-bg-color: #ffffff;
-        --el-card-border-color: #e2e8f0;
-        --el-card-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+        `--el-card-bg-color: `#ffffff !important;
+        `--el-card-border-color: `#e2e8f0 !important;
+        `--el-card-box-shadow: `0 1px 2px rgba(0, 0, 0, 0.05) !important;
 
         /* 🎨 Dialog / Drawer */
-        --el-dialog-bg-color: #ffffff;
-        --el-dialog-box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-        --el-drawer-bg-color: #ffffff;
+        `--el-dialog-bg-color: `#ffffff !important;
+        `--el-dialog-box-shadow: `0 10px 15px -3px rgba(0, 0, 0, 0.1) !important;
+        `--el-drawer-bg-color: `#ffffff !important;
 
         /* 🎨 Table */
-        --el-table-bg-color: #ffffff;
-        --el-table-tr-bg-color: #ffffff;
-        --el-table-header-bg-color: #f8fafc;
-        --el-table-row-hover-bg-color: #f1f5f9;
-        --el-table-border-color: #e2e8f0;
-        --el-table-text-color: #0f172a;
-        --el-table-header-text-color: #475569;
+        `--el-table-bg-color: `#ffffff !important;
+        `--el-table-tr-bg-color: `#ffffff !important;
+        `--el-table-header-bg-color: `#f8fafc !important;
+        `--el-table-row-hover-bg-color: `#f1f5f9 !important;
+        `--el-table-border-color: `#e2e8f0 !important;
+        `--el-table-text-color: `#0f172a !important;
+        `--el-table-header-text-color: `#475569 !important;
 
         /* 🎨 Tag */
-        --el-tag-bg-color: #f1f5f9;
-        --el-tag-border-color: #e2e8f0;
-        --el-tag-text-color: #334155;
+        `--el-tag-bg-color: `#f1f5f9 !important;
+        `--el-tag-border-color: `#e2e8f0 !important;
+        `--el-tag-text-color: `#334155 !important;
 
         /* 🎨 Popover / Dropdown */
-        --el-popover-bg-color: #ffffff;
-        --el-popover-border-color: #e2e8f0;
-        --el-popover-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-        --el-dropdown-menu-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-        --el-dropdown-menuItem-hover-fill: #f1f5f9;
-        --el-dropdown-menuItem-hover-color: #1e293b;
+        `--el-popover-bg-color: `#ffffff !important;
+        `--el-popover-border-color: `#e2e8f0 !important;
+        `--el-popover-box-shadow: `0 4px 6px -1px rgba(0, 0, 0, 0.1) !important;
+        `--el-dropdown-menu-box-shadow: `0 4px 6px -1px rgba(0, 0, 0, 0.1) !important;
+        `--el-dropdown-menuItem-hover-fill: `#f1f5f9 !important;
+        `--el-dropdown-menuItem-hover-color: `#1e293b !important;
 
         /* 🎨 Scrollbar */
-        --el-scrollbar-bg-color: #e2e8f0;
-        --el-scrollbar-thumb-bg-color: #94a3b8;
-        --el-scrollbar-thumb-hover-bg-color: #64748b;
+        `--el-scrollbar-bg-color: `#e2e8f0 !important;
+        `--el-scrollbar-thumb-bg-color: `#94a3b8 !important;
+        `--el-scrollbar-thumb-hover-bg-color: `#64748b !important;
 
         /* ============================================
            СВОИ КАСТОМНЫЕ ПЕРЕМЕННЫЕ (для Tailwind и т.п.)
@@ -184,50 +184,50 @@
        ============================================ */
     html.dark {
         /* 🎨 Menu */
-        --el-menu-active-color: #60a5fa;
-        --el-menu-text-color: #94a3b8;
-        --el-menu-hover-text-color: #f1f5f9;
-        --el-menu-bg-color: #1e293b;
-        --el-menu-hover-bg-color: #334155;
-        --el-menu-item-hover-fill: #1e3a5f;
-        --el-menu-border-color: #334155;
+        `--el-menu-active-color: `#60a5fa !important;
+        `--el-menu-text-color: `#94a3b8 !important;
+        `--el-menu-hover-text-color: `#f1f5f9 !important;
+        `--el-menu-bg-color: `#1e293b !important;
+        `--el-menu-hover-bg-color: `#334155 !important;
+        `--el-menu-item-hover-fill: `#1e3a5f !important;
+        `--el-menu-border-color: `#334155 !important;
 
         /* 🎨 Header */
-        --el-header-bg-color: #1e293b;
+        `--el-header-bg-color: `#1e293b !important;
 
         /* 🎨 Основные фоны */
-        --el-bg-color: #0f172a;
-        --el-bg-color-page: #0f172a;
-        --el-bg-color-overlay: #1e293b;
-        --el-fill-color: #334155;
-        --el-fill-color-light: #1e293b;
-        --el-fill-color-lighter: #1e293b;
-        --el-fill-color-blank: #1e293b;
-        --el-fill-color-dark: #475569;
+        `--el-bg-color: `#0f172a !important;
+        `--el-bg-color-page: `#0f172a !important;
+        `--el-bg-color-overlay: `#1e293b !important;
+        `--el-fill-color: `#334155 !important;
+        `--el-fill-color-light: `#1e293b !important;
+        `--el-fill-color-lighter: `#1e293b !important;
+        `--el-fill-color-blank: `#1e293b !important;
+        `--el-fill-color-dark: `#475569 !important;
 
         /* 🎨 Текст */
-        --el-text-color-primary: #f1f5f9;
-        --el-text-color-regular: #cbd5e1;
-        --el-text-color-secondary: #94a3b8;
-        --el-text-color-placeholder: #64748b;
-        --el-text-color-disabled: #475569;
+        `--el-text-color-primary: `#f1f5f9 !important;
+        `--el-text-color-regular: `#cbd5e1 !important;
+        `--el-text-color-secondary: `#94a3b8 !important;
+        `--el-text-color-placeholder: `#64748b !important;
+        `--el-text-color-disabled: `#475569 !important;
 
         /* 🎨 Границы */
-        --el-border-color: #334155;
-        --el-border-color-light: #1e293b;
-        --el-border-color-lighter: #1e293b;
-        --el-border-color-extra-light: #0f172a;
-        --el-border-color-dark: #475569;
-        --el-border-color-darker: #64748b;
+        `--el-border-color: `#334155 !important;
+        `--el-border-color-light: `#1e293b !important;
+        `--el-border-color-lighter: `#1e293b !important;
+        `--el-border-color-extra-light: `#0f172a !important;
+        `--el-border-color-dark: `#475569 !important;
+        `--el-border-color-darker: `#64748b !important;
 
         /* 🎨 Тени */
-        --el-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-        --el-box-shadow-light: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
-        --el-box-shadow-lighter: 0 1px 3px rgba(0, 0, 0, 0.2);
-        --el-box-shadow-dark: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+        `--el-box-shadow: `0 1px 2px rgba(0, 0, 0, 0.2) !important;
+        `--el-box-shadow-light: `0 4px 6px -1px rgba(0, 0, 0, 0.3) !important;
+        `--el-box-shadow-lighter: `0 1px 3px rgba(0, 0, 0, 0.2) !important;
+        `--el-box-shadow-dark: `0 10px 15px -3px rgba(0, 0, 0, 0.4) !important;
 
         /* 🎨 Цвета состояний */
-        --el-color-primary: #60a5fa;
+        `--el-color-primary: `#60a5fa !important;
         --el-color-primary-light-3: #3b82f6;
         --el-color-primary-light-5: #2563eb;
         --el-color-primary-light-7: #1d4ed8;
@@ -236,58 +236,58 @@
         --el-color-primary-dark-2: #93c5fd;
 
         /* 🎨 Button */
-        --el-button-bg-color: #334155;
-        --el-button-border-color: #475569;
-        --el-button-hover-bg-color: #1e293b;
-        --el-button-hover-border-color: #64748b;
-        --el-button-active-bg-color: #1e293b;
-        --el-button-text-color: #cbd5e1;
+        `--el-button-bg-color: `#334155 !important;
+        `--el-button-border-color: `#475569 !important;
+        `--el-button-hover-bg-color: `#1e293b !important;
+        `--el-button-hover-border-color: `#64748b !important;
+        `--el-button-active-bg-color: `#1e293b !important;
+        `--el-button-text-color: `#cbd5e1 !important;
 
         /* 🎨 Input */
-        --el-input-bg-color: #1e293b;
-        --el-input-border-color: #475569;
-        --el-input-hover-border-color: #64748b;
-        --el-input-focus-border-color: #60a5fa;
-        --el-input-text-color: #f1f5f9;
-        --el-input-placeholder-color: #64748b;
-        --el-input-focus-bg-color: #1e293b;
+        `--el-input-bg-color: `#1e293b !important;
+        `--el-input-border-color: `#475569 !important;
+        `--el-input-hover-border-color: `#64748b !important;
+        `--el-input-focus-border-color: `#60a5fa !important;
+        `--el-input-text-color: `#f1f5f9 !important;
+        `--el-input-placeholder-color: `#64748b !important;
+        `--el-input-focus-bg-color: `#1e293b !important;
 
         /* 🎨 Card */
-        --el-card-bg-color: #1e293b;
-        --el-card-border-color: #334155;
-        --el-card-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+        `--el-card-bg-color: `#1e293b !important;
+        `--el-card-border-color: `#334155 !important;
+        `--el-card-box-shadow: `0 1px 2px rgba(0, 0, 0, 0.2) !important;
 
         /* 🎨 Dialog / Drawer */
-        --el-dialog-bg-color: #1e293b;
-        --el-dialog-box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
-        --el-drawer-bg-color: #1e293b;
+        `--el-dialog-bg-color: `#1e293b !important;
+        `--el-dialog-box-shadow: `0 10px 15px -3px rgba(0, 0, 0, 0.4) !important;
+        `--el-drawer-bg-color: `#1e293b !important;
 
         /* 🎨 Table */
-        --el-table-bg-color: #0f172a;
-        --el-table-tr-bg-color: #0f172a;
-        --el-table-header-bg-color: #1e293b;
-        --el-table-row-hover-bg-color: #334155;
-        --el-table-border-color: #334155;
-        --el-table-text-color: #f1f5f9;
-        --el-table-header-text-color: #94a3b8;
+        `--el-table-bg-color: `#0f172a !important;
+        `--el-table-tr-bg-color: `#0f172a !important;
+        `--el-table-header-bg-color: `#1e293b !important;
+        `--el-table-row-hover-bg-color: `#334155 !important;
+        `--el-table-border-color: `#334155 !important;
+        `--el-table-text-color: `#f1f5f9 !important;
+        `--el-table-header-text-color: `#94a3b8 !important;
 
         /* 🎨 Tag */
-        --el-tag-bg-color: #334155;
-        --el-tag-border-color: #475569;
-        --el-tag-text-color: #cbd5e1;
+        `--el-tag-bg-color: `#334155 !important;
+        `--el-tag-border-color: `#475569 !important;
+        `--el-tag-text-color: `#cbd5e1 !important;
 
         /* 🎨 Popover / Dropdown */
-        --el-popover-bg-color: #1e293b;
-        --el-popover-border-color: #334155;
-        --el-popover-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
-        --el-dropdown-menu-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
-        --el-dropdown-menuItem-hover-fill: #334155;
-        --el-dropdown-menuItem-hover-color: #f1f5f9;
+        `--el-popover-bg-color: `#1e293b !important;
+        `--el-popover-border-color: `#334155 !important;
+        `--el-popover-box-shadow: `0 4px 6px -1px rgba(0, 0, 0, 0.3) !important;
+        `--el-dropdown-menu-box-shadow: `0 4px 6px -1px rgba(0, 0, 0, 0.3) !important;
+        `--el-dropdown-menuItem-hover-fill: `#334155 !important;
+        `--el-dropdown-menuItem-hover-color: `#f1f5f9 !important;
 
         /* 🎨 Scrollbar */
-        --el-scrollbar-bg-color: #334155;
-        --el-scrollbar-thumb-bg-color: #475569;
-        --el-scrollbar-thumb-hover-bg-color: #64748b;
+        `--el-scrollbar-bg-color: `#334155 !important;
+        `--el-scrollbar-thumb-bg-color: `#475569 !important;
+        `--el-scrollbar-thumb-hover-bg-color: `#64748b !important;
 
         /* ========== КАСТОМНЫЕ ========== */
         --bg-base: #0f172a;

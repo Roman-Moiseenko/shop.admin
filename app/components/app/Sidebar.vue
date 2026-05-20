@@ -24,7 +24,7 @@ const activeRoute = computed(() => route.path)
         :default-active="activeRoute"
         :collapse="collapsed"
         :router="false"
-        class="sidebar-menu"
+        class="sidebar-menu h-screen"
     >
       <AppSidebarItem
           v-for="item in navigationItems"
@@ -38,6 +38,7 @@ const activeRoute = computed(() => route.path)
 
 <style scoped>
 .sidebar {
+  width: 260px;
   transition: width 0.2s;
   overflow: hidden;
 }
