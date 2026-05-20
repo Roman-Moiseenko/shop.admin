@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+/* Здесь можно добавлять свои кастомные стили,
+   используя директивы Tailwind v4, например: */
+@theme {
+    --color-primary: #1D4ED8;
+    --color-secondary: #10B981;
+    --font-size-display: 4.5rem;
+
+    /* Привязываем свои CSS-переменные к Tailwind-классам */
+    --color-theme-base: var(--bg-base);
+    --color-theme-surface: var(--bg-surface);
+    --color-theme-elevated: var(--bg-elevated);
+    --color-theme-sidebar: var(--bg-sidebar);
+    --color-theme-header: var(--bg-header);
+    --color-theme-card: var(--bg-card);
+
+    --color-theme-text: var(--text-primary);
+    --color-theme-secondary: var(--text-secondary);
+    --color-theme-muted: var(--text-muted);
+    --color-theme-on-dark: var(--text-on-dark);
+
+    --color-theme-border: var(--border-default);
+    --color-theme-border-hover: var(--border-hover);
+
+    --color-theme-icon: var(--icon-default);
+    --color-theme-icon-hover: var(--icon-hover);
+    --color-theme-icon-active: var(--icon-active);
+
+    --color-theme-menu-bg: var(--menu-bg);
+    --color-theme-menu-text: var(--menu-text);
+    --color-theme-menu-text-active: var(--menu-text-active);
+}

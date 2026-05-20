@@ -1,0 +1,31 @@
+{
+  "name": "shop_adm",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.2",
+    "@element-plus/nuxt": "^1.1.5",
+    "@nuxt/fonts": "^0.14.0",
+    "@nuxt/test-utils": "^4.0.3",
+    "@pinia/nuxt": "^0.11.3",
+    "element-plus": "^2.14.0",
+    "nuxt": "^4.4.5",
+    "pinia": "^3.0.4",
+    "vitest": "^4.1.6",
+    "vue": "^3.5.34"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.0",
+    "@vue/test-utils": "^2.4.10",
+    "happy-dom": "^20.9.0",
+    "sass": "^1.99.0",
+    "tailwindcss": "^4.3.0"
+  }
+}

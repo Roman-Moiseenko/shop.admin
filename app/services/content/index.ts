@@ -1,0 +1,8 @@
+export { PageService } from './page.service'
+export { WidgetService } from './widget.service'
+export { WidgetInstanceService } from './widget-instance.service'
+export { ContentBlockService } from './content-block.service'
+export { MenuService } from './menu.service'
+export { MenuItemService } from './menu-item.service'
+export { SiteService } from './site.service'
+export { ContactService } from './contact.service'

@@ -1,0 +1,331 @@
+    :root {
+        /* ============================================
+           ELEMENT PLUS — полный список переменных
+           ============================================ */
+
+        /* 🎨 Menu (горизонтальное и вертикальное) */
+        --el-menu-active-color: #2563eb;
+        --el-menu-text-color: #334155;
+        --el-menu-hover-text-color: #1e293b;
+        --el-menu-bg-color: rgb(226 232 240); /* !  */
+        --el-menu-hover-bg-color: #f1f5f9;
+        --el-menu-item-height: 56px;
+        --el-menu-sub-item-height: 50px;
+        --el-menu-horizontal-height: 60px;
+        --el-menu-horizontal-sub-item-height: 36px;
+        --el-menu-item-font-size: 14px;
+        --el-menu-item-hover-fill: #eff6ff;
+        --el-menu-border-color: #e2e8f0;
+        --el-menu-base-level-padding: 20px;
+        --el-menu-level-padding: 20px;
+        --el-menu-icon-width: 24px;
+
+        /* 🎨 Header — у Element Plus нет прямых переменных, но есть border-color */
+        --el-header-height: 60px;
+        --el-header-padding: 0 20px;
+        --el-header-bg-color: #ffffff;
+
+        /* 🎨 Aside / Sidebar */
+        --el-aside-width: 300px;
+
+        /* 🎨 Основные фоны */
+        --el-bg-color: #ffffff;
+        --el-bg-color-page: #f8fafc;
+        --el-bg-color-overlay: #ffffff;
+        --el-fill-color: #f1f5f9;
+        --el-fill-color-light: #f8fafc;
+        --el-fill-color-lighter: #ffffff;
+        --el-fill-color-blank: #ffffff;
+        --el-fill-color-dark: #e2e8f0;
+
+        /* 🎨 Текст */
+        --el-text-color-primary: #0f172a;
+        --el-text-color-regular: #334155;
+        --el-text-color-secondary: #475569;
+        --el-text-color-placeholder: #94a3b8;
+        --el-text-color-disabled: #cbd5e1;
+
+        /* 🎨 Границы */
+        --el-border-color: #e2e8f0;
+        --el-border-color-light: #f1f5f9;
+        --el-border-color-lighter: #f8fafc;
+        --el-border-color-extra-light: #fafafa;
+        --el-border-color-dark: #cbd5e1;
+        --el-border-color-darker: #94a3b8;
+
+        /* 🎨 Тени */
+        --el-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+        --el-box-shadow-light: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        --el-box-shadow-lighter: 0 1px 3px rgba(0, 0, 0, 0.05);
+        --el-box-shadow-dark: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+
+        /* 🎨 Цвета состояний (можно свои оттенки) */
+        --el-color-primary: #3b82f6;
+        --el-color-primary-light-3: #60a5fa;
+        --el-color-primary-light-5: #93c5fd;
+        --el-color-primary-light-7: #bfdbfe;
+        --el-color-primary-light-8: #dbeafe;
+        --el-color-primary-light-9: #eff6ff;
+        --el-color-primary-dark-2: #2563eb;
+
+        --el-color-success: #10b981;
+        --el-color-warning: #f59e0b;
+        --el-color-danger: #ef4444;
+        --el-color-error: #ef4444;
+        --el-color-info: #64748b;
+
+        /* 🎨 Button */
+        --el-button-bg-color: #ffffff;
+        --el-button-border-color: #e2e8f0;
+        --el-button-hover-bg-color: #f8fafc;
+        --el-button-hover-border-color: #cbd5e1;
+        --el-button-active-bg-color: #f1f5f9;
+        --el-button-text-color: #334155;
+
+        /* 🎨 Input */
+        --el-input-bg-color: #ffffff;
+        --el-input-border-color: #e2e8f0;
+        --el-input-hover-border-color: #94a3b8;
+        --el-input-focus-border-color: #3b82f6;
+        --el-input-text-color: #0f172a;
+        --el-input-placeholder-color: #94a3b8;
+        --el-input-focus-bg-color: #ffffff;
+
+        /* 🎨 Card */
+        --el-card-bg-color: #ffffff;
+        --el-card-border-color: #e2e8f0;
+        --el-card-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+
+        /* 🎨 Dialog / Drawer */
+        --el-dialog-bg-color: #ffffff;
+        --el-dialog-box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        --el-drawer-bg-color: #ffffff;
+
+        /* 🎨 Table */
+        --el-table-bg-color: #ffffff;
+        --el-table-tr-bg-color: #ffffff;
+        --el-table-header-bg-color: #f8fafc;
+        --el-table-row-hover-bg-color: #f1f5f9;
+        --el-table-border-color: #e2e8f0;
+        --el-table-text-color: #0f172a;
+        --el-table-header-text-color: #475569;
+
+        /* 🎨 Tag */
+        --el-tag-bg-color: #f1f5f9;
+        --el-tag-border-color: #e2e8f0;
+        --el-tag-text-color: #334155;
+
+        /* 🎨 Popover / Dropdown */
+        --el-popover-bg-color: #ffffff;
+        --el-popover-border-color: #e2e8f0;
+        --el-popover-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        --el-dropdown-menu-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        --el-dropdown-menuItem-hover-fill: #f1f5f9;
+        --el-dropdown-menuItem-hover-color: #1e293b;
+
+        /* 🎨 Scrollbar */
+        --el-scrollbar-bg-color: #e2e8f0;
+        --el-scrollbar-thumb-bg-color: #94a3b8;
+        --el-scrollbar-thumb-hover-bg-color: #64748b;
+
+        /* ============================================
+           СВОИ КАСТОМНЫЕ ПЕРЕМЕННЫЕ (для Tailwind и т.п.)
+           ============================================ */
+
+        /* Фоны */
+        --bg-base: #ffffff;
+        --bg-surface: #f8fafc;
+        --bg-elevated: #f1f5f9;
+        --bg-sidebar: #1e293b;
+        --bg-header: #ffffff;
+        --bg-card: #ffffff;
+
+        /* Текст */
+        --text-primary: #0f172a;
+        --text-secondary: #475569;
+        --text-muted: #94a3b8;
+        --text-on-dark: #f8fafc;
+
+        /* Границы */
+        --border-default: #e2e8f0;
+        --border-hover: #cbd5e1;
+        --border-focus: #3b82f6;
+
+        /* Иконки */
+        --icon-default: #64748b;
+        --icon-hover: #0f172a;
+        --icon-active: #3b82f6;
+        --icon-on-sidebar: #94a3b8;
+        --icon-sidebar-active: #ffffff;
+
+        /* Тени */
+        --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+        --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        --shadow-sidebar: 2px 0 8px rgba(0, 0, 0, 0.08);
+
+        /* Меню (кастомные) */
+        --menu-bg: #ffffff;
+        --menu-item-bg-hover: #f1f5f9;
+        --menu-item-bg-active: #eff6ff;
+        --menu-text: #334155;
+        --menu-text-hover: #1e293b;
+        --menu-text-active: #2563eb;
+        --menu-border: #e2e8f0;
+
+        /* Header */
+        --header-bg: #ffffff;
+        --header-border: #e2e8f0;
+        --header-height: 60px;
+    }
+
+    /* ============================================
+       ТЁМНАЯ ТЕМА
+       ============================================ */
+    html.dark {
+        /* 🎨 Menu */
+        --el-menu-active-color: #60a5fa;
+        --el-menu-text-color: #94a3b8;
+        --el-menu-hover-text-color: #f1f5f9;
+        --el-menu-bg-color: #1e293b;
+        --el-menu-hover-bg-color: #334155;
+        --el-menu-item-hover-fill: #1e3a5f;
+        --el-menu-border-color: #334155;
+
+        /* 🎨 Header */
+        --el-header-bg-color: #1e293b;
+
+        /* 🎨 Основные фоны */
+        --el-bg-color: #0f172a;
+        --el-bg-color-page: #0f172a;
+        --el-bg-color-overlay: #1e293b;
+        --el-fill-color: #334155;
+        --el-fill-color-light: #1e293b;
+        --el-fill-color-lighter: #1e293b;
+        --el-fill-color-blank: #1e293b;
+        --el-fill-color-dark: #475569;
+
+        /* 🎨 Текст */
+        --el-text-color-primary: #f1f5f9;
+        --el-text-color-regular: #cbd5e1;
+        --el-text-color-secondary: #94a3b8;
+        --el-text-color-placeholder: #64748b;
+        --el-text-color-disabled: #475569;
+
+        /* 🎨 Границы */
+        --el-border-color: #334155;
+        --el-border-color-light: #1e293b;
+        --el-border-color-lighter: #1e293b;
+        --el-border-color-extra-light: #0f172a;
+        --el-border-color-dark: #475569;
+        --el-border-color-darker: #64748b;
+
+        /* 🎨 Тени */
+        --el-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+        --el-box-shadow-light: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+        --el-box-shadow-lighter: 0 1px 3px rgba(0, 0, 0, 0.2);
+        --el-box-shadow-dark: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+
+        /* 🎨 Цвета состояний */
+        --el-color-primary: #60a5fa;
+        --el-color-primary-light-3: #3b82f6;
+        --el-color-primary-light-5: #2563eb;
+        --el-color-primary-light-7: #1d4ed8;
+        --el-color-primary-light-8: #1e40af;
+        --el-color-primary-light-9: #1e3a5f;
+        --el-color-primary-dark-2: #93c5fd;
+
+        /* 🎨 Button */
+        --el-button-bg-color: #334155;
+        --el-button-border-color: #475569;
+        --el-button-hover-bg-color: #1e293b;
+        --el-button-hover-border-color: #64748b;
+        --el-button-active-bg-color: #1e293b;
+        --el-button-text-color: #cbd5e1;
+
+        /* 🎨 Input */
+        --el-input-bg-color: #1e293b;
+        --el-input-border-color: #475569;
+        --el-input-hover-border-color: #64748b;
+        --el-input-focus-border-color: #60a5fa;
+        --el-input-text-color: #f1f5f9;
+        --el-input-placeholder-color: #64748b;
+        --el-input-focus-bg-color: #1e293b;
+
+        /* 🎨 Card */
+        --el-card-bg-color: #1e293b;
+        --el-card-border-color: #334155;
+        --el-card-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+
+        /* 🎨 Dialog / Drawer */
+        --el-dialog-bg-color: #1e293b;
+        --el-dialog-box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+        --el-drawer-bg-color: #1e293b;
+
+        /* 🎨 Table */
+        --el-table-bg-color: #0f172a;
+        --el-table-tr-bg-color: #0f172a;
+        --el-table-header-bg-color: #1e293b;
+        --el-table-row-hover-bg-color: #334155;
+        --el-table-border-color: #334155;
+        --el-table-text-color: #f1f5f9;
+        --el-table-header-text-color: #94a3b8;
+
+        /* 🎨 Tag */
+        --el-tag-bg-color: #334155;
+        --el-tag-border-color: #475569;
+        --el-tag-text-color: #cbd5e1;
+
+        /* 🎨 Popover / Dropdown */
+        --el-popover-bg-color: #1e293b;
+        --el-popover-border-color: #334155;
+        --el-popover-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+        --el-dropdown-menu-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+        --el-dropdown-menuItem-hover-fill: #334155;
+        --el-dropdown-menuItem-hover-color: #f1f5f9;
+
+        /* 🎨 Scrollbar */
+        --el-scrollbar-bg-color: #334155;
+        --el-scrollbar-thumb-bg-color: #475569;
+        --el-scrollbar-thumb-hover-bg-color: #64748b;
+
+        /* ========== КАСТОМНЫЕ ========== */
+        --bg-base: #0f172a;
+        --bg-surface: #1e293b;
+        --bg-elevated: #334155;
+        --bg-sidebar: #0f172a;
+        --bg-header: #1e293b;
+        --bg-card: #1e293b;
+
+        --text-primary: #f1f5f9;
+        --text-secondary: #94a3b8;
+        --text-muted: #64748b;
+        --text-on-dark: #f1f5f9;
+
+        --border-default: #334155;
+        --border-hover: #475569;
+        --border-focus: #60a5fa;
+
+        --icon-default: #94a3b8;
+        --icon-hover: #f1f5f9;
+        --icon-active: #60a5fa;
+        --icon-on-sidebar: #64748b;
+        --icon-sidebar-active: #ffffff;
+
+        --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.2);
+        --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+        --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+        --shadow-sidebar: 2px 0 8px rgba(0, 0, 0, 0.3);
+
+        --menu-bg: #1e293b;
+        --menu-item-bg-hover: #334155;
+        --menu-item-bg-active: #1e3a5f;
+        --menu-text: #94a3b8;
+        --menu-text-hover: #f1f5f9;
+        --menu-text-active: #60a5fa;
+        --menu-border: #334155;
+
+        --header-bg: #1e293b;
+        --header-border: #334155;
+    }
+
